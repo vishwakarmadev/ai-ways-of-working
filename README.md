@@ -1,7 +1,7 @@
-# AI Ways of Working — Claude Dev Prompt
+# AI Ways of Working: Claude Dev Prompt
 
 A security-aware system prompt for using Claude (or any LLM) in software development.
-Enforces TDD discipline, prevents solution sprawl, and bakes security in from the first line of code — not as an afterthought.
+Enforces TDD discipline, prevents solution sprawl, and bakes security in from the first line of code, not as an afterthought.
 
 Most "ways of working" docs for AI-assisted development cover TDD and clean architecture.
 None of them cover what happens when a test needs a credential, or what "one logical change at a time" means when that change touches an auth layer.
@@ -13,7 +13,7 @@ This prompt fixes that.
 ## How to use
 
 Paste the contents of the prompt below at the start of any Claude session before you share a spec.
-Fill in the Project Context section each time — stack, test framework, folder structure.
+Fill in the Project Context section each time, stack, test framework, folder structure.
 
 ---
 
@@ -131,4 +131,4 @@ Especially interested in stack-specific additions: Django, Spring Boot, Go, mobi
 
 ---
 
-*Built by [Chaitali Vishwakarma]((https://www.linkedin.com/in/chaitali-vishwakarma154/)) — open for feedback and improvements.*
+*Built by [Chaitali Vishwakarma]((https://www.linkedin.com/in/chaitali-vishwakarma154/)) : open for feedback and improvements.*
